@@ -1,0 +1,25 @@
+<% layout('./layouts/layouts') %>
+<div style="background-image: url('https://images.unsplash.com/photo-1553801613-932c79d34aa8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=376&q=80'); width: 100%;" >
+    <div class="container" style="background-color: rgba(0,0,0,0.8); padding-left: 150px; padding-right: 150px;">
+        
+        <br><br>
+        <h1 style="color: white; padding-left: 270px;"><b>OUR CUSTOMERS</b></h1>
+        <br><br>
+        <% for(let c of customer) {%>
+            <div class="card mb-3">
+                <div class="row">
+                    <div class="col-md-6 col-lg-8">
+                        <div class="card-body pb-1 pb-sm-0">
+                            <h5 class="card-title" style="text-transform: capitalize; float: left;">
+                                <b><%= c.username %></b>
+                            </h5>
+                            <a class="btn btn-info btn-sm" style="float: right; margin-right: -280px;" href="/customer/<%= c._id %>">View / Transact</a>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+            <br><br>
+        </div>
+        </div>
