@@ -27,3 +27,23 @@ Connection successfull</b></pre>
 <pre><b>http://localhost:3000/</b></pre>
 <li>Now you can see our website</li>
 </ul>
+
+## Screenshots :
+
+### Landing Page :
+<img src = "https://raw.githubusercontent.com/Harshit1704/Basic-Banking-System/main/Screenshots/Screenshot%20(54).png">
+
+### All Customers Page :
+<img src = "https://raw.githubusercontent.com/Harshit1704/Basic-Banking-System/main/Screenshots/Screenshot%20(55).png">
+
+### Transactions History Page :
+<img src = "https://raw.githubusercontent.com/Harshit1704/Basic-Banking-System/main/Screenshots/Screenshot%20(56).png">
+
+### Individual Customer Page :
+<img src = "https://raw.githubusercontent.com/Harshit1704/Basic-Banking-System/main/Screenshots/Screenshot%20(57).png">
+
+### Customer Transfer Money Page :
+<img src = "https://raw.githubusercontent.com/Harshit1704/Basic-Banking-System/main/Screenshots/Screenshot%20(58).png">
+
+### Individual Customer Transactions History  :
+<img src = "https://raw.githubusercontent.com/Harshit1704/Basic-Banking-System/main/Screenshots/Screenshot%20(59).png">
